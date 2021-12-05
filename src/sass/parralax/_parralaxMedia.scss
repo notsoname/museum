@@ -1,0 +1,23 @@
+.parallax {
+    height: 300px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .parallax {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .parallax {
+        height: 300px;
+    }
+}
+
+@media (max-width: 420px) {
+
+
+}
+

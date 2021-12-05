@@ -1,0 +1,128 @@
+@media (max-width: 1024px) {
+    .footer {
+        &__logo {
+            margin-right: 45px;
+            &-text {
+                width: 120px;
+            }
+        }
+        &_nav {
+            width: 313px;
+        }
+        &__container {
+            flex-wrap: wrap;
+        }
+    }
+    .hamburger {
+        display: block;
+    }
+    .footer-section {
+        padding: 60px 0;
+    }
+    .header__logo-footer {
+        align-items: baseline;
+    }
+    .footer_socials {
+        margin-top: 88px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        &__container {
+            flex-direction: column;
+        }
+        &__logo {
+            margin-right: 0;
+            &-text {
+                width: unset;
+                margin-right: 99px;
+            }
+        }
+        &_nav {
+            margin-top: 4px;
+            width: 341px;
+            &_li {
+                margin-bottom: 20px;
+                a {
+                    font-size: 18px;
+                }
+            }
+        }
+        &_socials {
+            margin-top: 50px;
+            justify-content: right;
+            margin-right: 91px;
+        }
+        &__info {
+            margin-top: 40px;
+        }
+    }
+    .line {
+        margin-top: 40px;
+    }
+    .footer-section {
+        padding: 40px 0;
+    }
+    .header__logo-footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 420px) {
+    .header__logo-footer {
+        flex-direction: column;
+    }
+    .footer {
+        overflow: hidden;
+        &__container {
+            flex-direction: column;
+            margin-right: unset;
+            flex-wrap: nowrap;
+        }
+        &__logo {
+            margin-right: 0;
+            &_svg {
+                margin-right: 20px;
+            }
+            &-text {
+                width: unset;
+                // margin-right: 99px;
+            }
+        }
+        &_nav {
+            width: 380px;
+            display: none;
+            &_li {
+                a {
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                }
+            }
+            &-small {
+                margin-top: 40px;
+                display: flex;
+            }
+        }
+        &_socials {
+            margin-top: 40px;
+            justify-content: center;
+            margin-right: 0;
+            &_social {
+                margin-right: 5px;
+            }
+        }
+        &__info {
+            >div, >a {
+                font-size: 16px;
+            }
+            :nth-child(2) {
+                display: none;
+            }
+        }
+    }
+    .footer-section {
+        padding: 40px 0;
+    }
+}
+

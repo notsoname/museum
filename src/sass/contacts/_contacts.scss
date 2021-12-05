@@ -1,0 +1,44 @@
+.contacts {
+    height: 813px;
+    &__container {
+        margin-top: 75px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &_info {
+        &_title {
+            font-size: 28px;
+            font-weight: 500;
+            
+        }
+        &_wrap {
+          margin-top: 50px;
+          :last-child {
+            margin-bottom: 0;
+          }
+        }
+        &_information {
+            margin-bottom: 25px;
+            font-size: 22px;
+            font-weight: 300;
+            
+            a {
+                color: black;
+                margin-bottom: 21px;
+                font-weight: 300;
+                transition: 0.3s all;
+                &:hover {
+                    transition: 0.3s all;
+                    color: #9D8665;
+                }
+            }
+        }
+    }
+  }
+
+
+
+.map {
+    width: 66.56%;
+    height: 620px;
+}
